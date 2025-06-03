@@ -50,21 +50,8 @@
                             @endif
                         @else
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/home">Inicio</a>
+                                <a class="nav-link" href="/roles/show">Roles</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/products/show">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/clientes/show">Clientes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/marcas/show">Marcas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/categorias/show">Categorias</a>
-                            </li>
-
 
 
                             <li class="nav-item dropdown">
@@ -96,3 +83,5 @@
     </div>
 </body>
 </html>
+
+@yield('scripts') 
